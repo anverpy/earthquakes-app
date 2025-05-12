@@ -31,7 +31,7 @@ df = None
 @st.cache_data(ttl=3600)
 def load_data():
     try:
-        df = pd.read_csv("data/terremotos.csv")
+        df = pd.read_csv("data/earthquakes.csv")
         
         # Convert date columns to datetime and REMOVE TIMEZONE
         df['time'] = pd.to_datetime(df['time']).dt.tz_localize(None)
