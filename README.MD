@@ -1,8 +1,12 @@
 # Earthquake Analysis Dashboard
 
 <div align="center">
+  <img src="banner.png" alt="Earthquake Dashboard Banner" width="100%">
+</div>
+
+<div align="center">
   <img src="https://img.shields.io/badge/Python-3.9+-blue.svg" alt="Python 3.9+">
-  <img src="https://img.shields.io/badge/Streamlit-1.20+-red.svg" alt="Streamlit 1.20+">
+  <img src="https://img.shields.io/badge/Streamlit-1.20+-00BFFF.svg" alt="Streamlit 1.20+">
   <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License">
 </div>
 
