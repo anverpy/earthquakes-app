@@ -17,11 +17,16 @@
   <p>
     <i>Powered by Streamlit, Plotly, Pandas, and Scikit-learn</i>
   </p>
+  <p>
+    <a href="../earthquakes"><b>📊 View the companion Data Analysis Project</b></a>
+  </p>
 </div>
 
 ## 📋 Overview
 
 This earthquake analysis dashboard provides an interactive interface for exploring and analyzing seismic data from the USGS Earthquake Catalog. The application allows users to visualize earthquake patterns, perform spatial clustering, and identify temporal trends in seismic activity.
+
+> **🔍 Data Science Foundation:** This application builds upon the analytical work in our [Earthquake Data Analysis](https://github.com/anverpy/earthquakes) project, which provides the data processing pipeline, statistical analysis, and visualization techniques that power this dashboard.
 
 ### 🌟 Key Features
 
@@ -68,9 +73,12 @@ This earthquake analysis dashboard provides an interactive interface for explori
 
 4. Download the latest earthquake data:
    ```bash
-   # Data will be automatically downloaded if not present
+   # Option 1: Use processed data from the Earthquake Data Analysis project
+   cp ../earthquakes/cleaned_dataframe.csv data/earthquakes.csv
+   
+   # Option 2: Data will be automatically downloaded if not present
    # Or manually download from https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php
-   # and place in data/all_month.csv
+   # and place in /data
    ```
 
 5. Run the application:
@@ -143,6 +151,26 @@ The dashboard offers tools to detect patterns in earthquake occurrence over time
 - Day-of-week distribution
 - Hour-of-day patterns
 - Interactive heat maps for temporal-spatial correlations
+
+## 🔗 Related Projects
+
+This application is part of a comprehensive earthquake analysis suite:
+
+### [📊 Earthquake Data Analysis](https://github.com/anverpy/earthquakes)
+
+<p align="center">
+  <img src="../earthquakes/Graphics/earthquake_heatmap.png" alt="Earthquake Data Analysis" width="600"/>
+</p>
+
+The Earthquake Data Analysis project provides:
+
+- **Advanced data preprocessing** techniques used in this dashboard
+- **Statistical analysis** and insights that inform the visualizations
+- **Jupyter notebooks** showing the step-by-step analytical process
+- **Correlation studies** that help explain relationships in seismic data
+
+This dashboard brings the insights from the analysis project to life through an interactive interface.
+
 
 ## 📝 License
 
