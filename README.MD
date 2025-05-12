@@ -24,7 +24,7 @@
 
 ## 📋 Overview
 
-This earthquake analysis dashboard provides an interactive interface for exploring and analyzing seismic data from the USGS Earthquake Catalog. The application allows users to visualize earthquake patterns, perform spatial clustering, and identify temporal trends in seismic activity.
+Provides an interactive interface for exploring and analyzing seismic data from the USGS Earthquake Catalog. The application allows users to visualize earthquake patterns, perform spatial clustering, and identify temporal trends in seismic activity.
 
 > **🔍 Data Science Foundation:** This application builds upon the analytical work in our [Earthquake Data Analysis](https://github.com/anverpy/earthquakes) project, which provides the data processing pipeline, statistical analysis, and visualization techniques that power this dashboard.
 
