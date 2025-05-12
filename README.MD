@@ -1,4 +1,4 @@
-# Earthquake Analysis Dashboard
+# Earthquake Analysis Web App
 
 <div align="center">
   <img src="banner.png" alt="Earthquake Dashboard Banner" width="100%">
